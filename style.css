@@ -5,3 +5,19 @@ body{
 .header{
     background-color: #1F2937;
 }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+    display: inline-block;
+}
