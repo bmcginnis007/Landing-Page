@@ -7,18 +7,60 @@ height: 100vh;
 }
 
 .header{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     height: 30%;
+    width: 100vw;
     
 }
 
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+}
+
+.links{
+    display: inline-block;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.left p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .hero{
+    display: inline-flex;
+}
+
+.main-img{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+#img-text{
+    color: #E5E7EB;
+}
+
+.left button{
+    background-color: #3882f6;
+    color: white;
+}
+
+.img-div{
+    width: 75px;
+    height: 75px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: blue;
     display: inline-block;
 }
