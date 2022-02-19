@@ -10,7 +10,6 @@ margin: 0;
     background-color: #1F2937;
     display: inline-flex;
     flex-direction: column;
-    width: 100vw;
 }
 
 .container{
@@ -54,6 +53,7 @@ a{
     margin-left: 15%;
     min-width: 300px;
     max-width: 300px;
+    margin-bottom: 75px;
     aspect-ratio: 1 / 1;
     
 }
@@ -74,8 +74,8 @@ a{
     justify-content: center;
     align-items: center;
     background-color: grey;
-    min-height: 285px;
-    max-height: 285px;
+    min-height: 200px;
+    max-height: 200px;
     min-width: 400px;
     max-width: 400px;
     margin-top: 48px;
@@ -102,7 +102,6 @@ a{
 
 .sect-1{
     display: inline-flex;
-    height: 30vh;
 }
 
 .img-div{
@@ -116,12 +115,10 @@ a{
 }
 
 .quote{
-    height: 30vh;
     background-color: #E5E7EB;
 }
 
 .cta{
-    height: 30vh;
 }
 
 .footer{
@@ -129,9 +126,7 @@ a{
     justify-content: center;
     align-content: center;
     background-color: #1F2937;
-    height: 10vh;
-    
-}
+    }
 
 .footer p{
     color: #E5E7EB;
