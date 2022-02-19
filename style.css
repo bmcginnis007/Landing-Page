@@ -2,6 +2,7 @@ body{
 display: flex;
 flex-direction: column;
 align-content: space-between;
+width: 100vw;
 margin: 0;
 }
 
@@ -9,6 +10,7 @@ margin: 0;
     background-color: #1F2937;
     display: inline-flex;
     flex-direction: column;
+    width: 100vw;
 }
 
 .container{
@@ -20,7 +22,7 @@ margin: 0;
     color: #F9FAF8;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .links{
@@ -49,7 +51,10 @@ a{
     align-content: space-between;
     max-height: 285px;
     min-height: 285px;
-    margin-left: 20%;
+    margin-left: 15%;
+    min-width: 300px;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
     
 }
 
@@ -61,17 +66,20 @@ a{
 .hero{
     display: inline-flex;
     min-height: fit-content;
-    gap: 100px;
+    justify-content: space-between;
 }
 
 .main-img{
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: grey;
-    padding-left:  104.16px;
-    padding-right: 104.16px;
-    padding-top: 99.5px;
+    min-height: 285px;
+    max-height: 285px;
+    min-width: 400px;
+    max-width: 400px;
     margin-top: 48px;
+    margin-bottom: 48px;
     margin-right: 23%;
 }
 
