@@ -106,8 +106,18 @@ button a{
 }
 
 .sect-1{
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
 }
+
+.para{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
+}
+
 
 .img-div{
     width: 75px;
