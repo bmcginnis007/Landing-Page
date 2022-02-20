@@ -154,6 +154,24 @@ flex-direction: column;
 
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    width: 575px;
+    font-size: 36px;
+    font-family: 'Roboto' ,sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.p2{
+font-size: 24px;
+font-weight: bold;
+padding-left: 337.03px;
 }
 
 .cta{
